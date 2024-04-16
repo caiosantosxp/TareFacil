@@ -3,10 +3,10 @@
 Este é um aplicativo simples de lista de tarefas construído com React.
 
 ![Captura de Tela 1](./public/foto1.png)
-*Legenda da Captura de Tela 1*
+
 
 ![Captura de Tela 2](./public/foto2.png)
-*Legenda da Captura de Tela 2*
+
 
 ## Funcionalidades
 
@@ -29,12 +29,12 @@ Para obter uma cópia local em funcionamento, siga estas etapas simples:
    git clone https://github.com/seu_nome_de_usuario/seu_repositorio.git
 
 2. Instale os pacotes NPM
-  ```sh
-  npm install
+   ```sh
+   npm install
 
 3. Execute o aplicativo
-  ```sh
-  npm start
+   ```sh
+   npm start
 
 
 ## Uso
