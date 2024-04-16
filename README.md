@@ -26,7 +26,7 @@ Para obter uma cópia local em funcionamento, siga estas etapas simples:
 
 1. Clone o repositório
    ```sh
-   git clone https://github.com/seu_nome_de_usuario/seu_repositorio.git
+   git clone https://github.com/caiosantosxp/TareFacil
 
 2. Instale os pacotes NPM
    ```sh
