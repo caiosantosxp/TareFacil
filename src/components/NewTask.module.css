@@ -1,0 +1,46 @@
+.NewTask {
+  display: flex;
+  margin: -1.875rem auto 0;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 46rem;
+}
+
+.NewTask input {
+  width: auto;
+  padding: 1rem;
+  flex: 1 0 0;
+  border-radius: 8px;
+  border: 1px solid var(--Gray-700);
+  background: var(--Gray-500);
+}
+
+.NewTask input:focus{
+  color: var(--Gray-100);
+  border: 1px solid var(--PurpleDark);
+}
+
+.NewTask button {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  border-radius: 8px;
+  border: none;
+  background: var(--BlueDark);
+  color: var(--Gray-100);
+  transition: background-color 0.2s;
+}
+
+.NewTask button:hover {
+  background: var(--Blue);
+}
+
+@media screen and (max-width: 760px) {
+  .NewTask {
+    width: 350px; /* Reduz a margem esquerda quando a largura da tela é 736px ou menos */
+  }
+}
